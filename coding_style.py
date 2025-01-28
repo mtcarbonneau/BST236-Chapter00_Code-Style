@@ -10,6 +10,7 @@ based on PEP 8 and common conventions.
 # =============================================================================
 
 # Bad example - not self-documenting
+
 def func(y):
     # z is gravitational force
     z = 9.81
@@ -26,8 +27,7 @@ def compute_displacement(time_in_seconds):
     return displacement
 
 # Even better - with parameters
-def compute_displacement(time_in_seconds, 
-                       gravitational_force=9.81):
+def compute_displacement(time_in_seconds, gravitational_force=9.81):
     displacement = 1/2 * gravitational_force * time_in_seconds**2
     return displacement
 
