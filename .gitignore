@@ -5,6 +5,7 @@ __pycache__/
 
 # Makefiles
 Makefile
+.DS_Store
 
 # Distribution / packaging
 dist/
